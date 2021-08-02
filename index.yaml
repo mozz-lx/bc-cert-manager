@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  cert-manager:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v1
+    appVersion: v1.4.2
+    created: "2021-08-02T14:17:50.852139397-05:00"
+    description: A Helm chart for cert-manager
+    digest: 1bb015a173951fd5f73e806bfd2c02c34f1bc41918a70890d0192141a6dbbdb7
+    home: https://github.com/jetstack/cert-manager
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+    name: cert-manager
+    sources:
+    - https://github.com/jetstack/cert-manager
+    urls:
+    - https://mozz-lx.github.io/bc-cert-manager/cert-manager-v1.4.2.tgz
+    version: v1.4.2
+generated: "2021-08-02T14:17:50.84568039-05:00"
