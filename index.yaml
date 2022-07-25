@@ -3,9 +3,63 @@ entries:
   cert-manager:
   - annotations:
       artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
+    appVersion: v1.9.0
+    created: "2022-07-25T09:32:17.440192-05:00"
+    description: A Helm chart for cert-manager
+    digest: fab4457eea49344917167f02732fbe56bedbe6ae1935dace8db3fac34d672e85
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/d53c0b9270f8cd90d908460d69502694e1838f5f/logo/logo-small.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://mozz-lx.github.io/bc-cert-manager/cert-manager-v1.9.0.tgz
+    version: v1.9.0
+  - annotations:
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
+    appVersion: v1.8.2
+    created: "2022-07-25T09:32:17.435053-05:00"
+    description: A Helm chart for cert-manager
+    digest: 3e3262f08455d02f025e803b8227dea3ff3f88c170bfb0655b513fa274de5592
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://mozz-lx.github.io/bc-cert-manager/cert-manager-v1.8.2.tgz
+    version: v1.8.2
+  - annotations:
+      artifacthub.io/prerelease: "false"
     apiVersion: v1
     appVersion: v1.4.2
-    created: "2021-08-02T14:17:50.852139397-05:00"
+    created: "2022-07-25T09:32:17.430506-05:00"
     description: A Helm chart for cert-manager
     digest: 1bb015a173951fd5f73e806bfd2c02c34f1bc41918a70890d0192141a6dbbdb7
     home: https://github.com/jetstack/cert-manager
@@ -24,4 +78,4 @@ entries:
     urls:
     - https://mozz-lx.github.io/bc-cert-manager/cert-manager-v1.4.2.tgz
     version: v1.4.2
-generated: "2021-08-02T14:17:50.84568039-05:00"
+generated: "2022-07-25T09:32:17.42003-05:00"
